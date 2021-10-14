@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/img/netflix-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.548);
+    height: 100vh;
+}
+.header{
+    width: 100vw;
+    padding: 4vh 3rem;
+}
+.header .head{
+    display: flex;
+    justify-content: space-between;
+}
+.header .head h2 {
+    color: #e50914;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+.header .head button{
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: .4rem;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    
+}
+.box .text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    width: 800px;
+    font-size: 1.5rem;
+    
+}
+.box .text h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .text h1:nth-child(2){
+    margin-bottom: 1rem;
+}
+
+.box .text .p{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    margin-left: 3rem;
+}
+.box .text .p2{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    margin-left: 4rem;
+    
+}
+footer{
+    display: flex;
+    width: 650px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+footer input{
+    
+    width: 500px;
+    height: 4rem;
+    font-size: 1rem;
+    padding-left: .5rem;
+}
+footer input:focus{
+    outline: none;
+}
+
+footer button{
+    height: 4rem;
+    width: 200px;
+    font-size: 1.5rem;
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    border-radius: 0 .2rem .2rem 0;
+    cursor: pointer;
+}
+footer button:hover{
+    background-color: #d8232c;
+}
